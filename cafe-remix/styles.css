@@ -1,6 +1,6 @@
 body {
   background-image: url("bg-img.jpg");
-  font-family: sans-serif;
+  font-family: "Turret Road", sans-serif;
   padding: 20px;
 }
 
@@ -8,10 +8,12 @@ h1 {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  font-family: Impact, "Arial Narrow", sans-serif;
 }
 
 h2 {
   font-size: 30px;
+  font-family: "Arial Narrow", sans-serif;
 }
 
 .established {
@@ -46,10 +48,6 @@ hr {
 
 .bottom-line {
   margin-top: 25px;
-}
-
-h1, h2 {
-  font-family: Impact, serif;
 }
 
 .item p {
