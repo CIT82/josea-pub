@@ -1,0 +1,20 @@
+.navbar-brand {
+  font-family: "Offside", Arial, sans-serif;
+  margin-left: 1rem;
+  color: #add8e6;
+}
+
+.navbar-toggler {
+    margin-right: 1rem;
+}
+
+.col-12 {
+   background-color: #add8e6;
+   border-radius: 1rem;
+   margin-top: 1rem;
+   padding: 1rem;
+}
+
+body {
+  background-color: #d3d3d3;
+}
