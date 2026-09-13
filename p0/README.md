@@ -1,8 +1,40 @@
-# Site Inventory
-
-<! -- document the External CSS libraries (Bootstrap, Fonts, Icons) and the Custom CSS link found in your head section. -->
-## External CSS Libraries:
+# External CSS Libraries:
 <!-- list the external CSS libraries used in your project: js folder and css folder -->
 1. js library: scripts.js
 2. css library: styles.css (file name)
 3. Custom CSS link: [Go to Custom CSS](css/styles.css)
+
+# Major Functional Blocks:
+
+### 1. Navigation/Menu
+- **Lines:** 15–28
+- **Opening tag/classes:** `<nav class="navbar navbar-expand-lg navbar-dark bg-dark">`
+- **Power Classes:**
+  - `navbar`: Creates a responsive flexbox navigation layout.
+  - `navbar-expand-lg`: Keeps the menu collapsed below the large breakpoint and expands it at 992px and wider.
+  - `navbar-dark`: Uses light-colored text and a light toggler icon for dark backgrounds.
+  - `bg-dark`: Gives the navigation bar a dark background.
+
+### 2. Logo/Branding
+- **Lines:** 17–17
+- **Opening tag/classes:** `<a class="navbar-brand" ...>`
+- **Power Class:**
+  - `navbar-brand`: Styles the brand name with larger text, spacing, navbar colors, and prevents the text from wrapping.
+
+The logo is positioned inside the navigation’s `.container`, alongside the menu toggle and navigation links.
+
+### 3. First Content Section: “Full Width Backgrounds”
+- **Lines:** 36–46
+- **Opening tag/classes:** `<section class="py-5">`
+- **Power Class:**
+  - `py-5`: Adds vertical padding of 3rem to the top and bottom of the section.
+
+Supporting layout classes include `container my-5`, `row justify-content-center`, and `col-lg-6`, which center the content, add spacing, and limit the text column to half-width on large screens.
+
+### 4. Second Content Section: “Engaging Background Images”
+- **Lines:** 52–62
+- **Opening tag/classes:** `<section class="py-5">`
+- **Power Class:**
+  - `py-5`: Adds 3rem of vertical spacing above and below the section.
+
+Like the first section, its nested `container`, `row justify-content-center`, and `col-lg-6` classes control the centered, responsive text layout.
