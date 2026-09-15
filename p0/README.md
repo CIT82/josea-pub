@@ -38,3 +38,28 @@ Supporting layout classes include `container my-5`, `row justify-content-center`
   - `py-5`: Adds 3rem of vertical spacing above and below the section.
 
 Like the first section, its nested `container`, `row justify-content-center`, and `col-lg-6` classes control the centered, responsive text layout.
+
+# Additional Functional Blocks:
+
+1. Full-Width Image Section
+- **Lines:** 48–52
+- **Opening tag/classes:** `<div class="py-5 bg-image-full">`
+- **Power Classes:**
+  - `py-5`: Adds 3rem of vertical padding.
+  - `bg-image-full`: Applies full-width background image styling, including background positioning and sizing.
+The inline style supplies the background image, while the inner spacer gives the image section a height of 20rem.
+
+2. Second Content Section: “Engaging Background Images”
+- **Lines:** 53–62
+- **Opening tag/classes:** `<section class="py-5">`
+- **Power Class:**
+  - `py-5`: Adds 3rem of vertical padding above and below the section.
+  - Its nested classes `container`, `my-5`, `row`, `justify-content-center`, and `col-lg-6` control spacing, centering, and responsive width.
+
+3. Footer
+- **Lines:** 63–65
+- **Opening tag/classes:** `<footer class="py-5 bg-dark">`
+- **Power Classes:**
+  - `py-5`: Adds 3rem of vertical padding.
+  - `bg-dark`: Applies Bootstrap’s dark background color.
+The footer contrasts with the white content sections through its dark background. Its nested classes `container`, `m-0`, `text-center`, and `text-white` constrain, align, and color the copyright text.
