@@ -63,3 +63,21 @@ The inline style supplies the background image, while the inner spacer gives the
   - `py-5`: Adds 3rem of vertical padding.
   - `bg-dark`: Applies Bootstrap’s dark background color.
 The footer contrasts with the white content sections through its dark background. Its nested classes `container`, `m-0`, `text-center`, and `text-white` constrain, align, and color the copyright text.
+
+# Scripts:
+1. Lines: 67–69
+2. Vendor JS Files: 
+- Line 68
+- Name: Bootstrap 5.2.3 bundle
+3. Main JS File: 
+- Line: 69 
+- File name: scripts.js
+
+# Libraries Used:
+1. Bootstrap 5.2.3 JavaScript: 
+- Loaded from jsDelivr on line 68
+- File name: bootstrap.bundle.min.js
+2. Custom JavaScript: scripts.js 
+- Line: 69
+- File name: scripts.js
+- Description: This is the template’s own script file, not an external library.
