@@ -10830,3 +10830,92 @@ textarea.form-control-lg {
   background-position: center;
   background-size: cover;
 }
+
+/* Site color system: black and white foundations with blue for emphasis. */
+:root {
+  --site-blue: #1261a0;
+  --site-blue-dark: #0b3d62;
+  --site-blue-light: #e7f2fb;
+  --bs-primary: var(--site-blue);
+  --bs-primary-rgb: 18, 97, 160;
+  --bs-link-color: var(--site-blue);
+  --bs-link-hover-color: var(--site-blue-dark);
+}
+
+body {
+  color: #000;
+  background-color: #fff;
+}
+
+a {
+  color: var(--site-blue);
+}
+
+a:hover,
+a:focus {
+  color: var(--site-blue-dark);
+}
+
+.navbar-dark.bg-dark,
+footer.bg-dark {
+  background-color: #000 !important;
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .nav-link:hover,
+.navbar-dark .nav-link:focus,
+.navbar-dark .nav-link.active {
+  color: var(--site-blue) !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--site-blue);
+  --bs-btn-border-color: var(--site-blue);
+  --bs-btn-hover-bg: var(--site-blue-dark);
+  --bs-btn-hover-border-color: var(--site-blue-dark);
+  --bs-btn-active-bg: var(--site-blue-dark);
+  --bs-btn-active-border-color: var(--site-blue-dark);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--site-blue);
+  --bs-btn-border-color: var(--site-blue);
+  --bs-btn-hover-bg: var(--site-blue);
+  --bs-btn-hover-border-color: var(--site-blue);
+  --bs-btn-active-bg: var(--site-blue-dark);
+  --bs-btn-active-border-color: var(--site-blue-dark);
+}
+
+section h2::after {
+  display: block;
+  width: 3rem;
+  margin-top: 0.75rem;
+  border-bottom: 3px solid var(--site-blue);
+  content: "";
+}
+
+.card {
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--site-blue);
+  box-shadow: 0 0.35rem 1rem rgba(18, 97, 160, 0.15);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--site-blue);
+  box-shadow: 0 0 0 0.25rem rgba(18, 97, 160, 0.2);
+}
+
+footer a.text-white-50:hover,
+footer a.text-white-50:focus {
+  color: var(--site-blue) !important;
+}
+
+:focus-visible {
+  outline: 3px solid var(--site-blue);
+  outline-offset: 2px;
+}
