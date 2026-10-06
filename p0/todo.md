@@ -6,11 +6,10 @@
 # Content Replacement Tasks
 1. - [x] Replace the placeholder text of the brand name with a name that reflects the site's purpose.
 2. - [x] Replace the placeholder text of the content sections with text like details about a product or service.
-3. - [x]
+3. - [x] Replace the placeholder images with relevant images that relate to the content of the site.
 4. - [x] Edit the copyright information in the footer to reflect the current year and the correct company name.
 5. - [x] Update the headers and subheaders to be more descriptive and relevant to the content.
 6. - [x] Replace the placeholder links in the dropdown menu with actual links to the relevant pages or resources.
-7. - [] Update the meta tags to include relevant keywords and descriptions. (if there are any)
 8. - [x] Add a link to the site map in the footer for better navigation and SEO.
 10. - [x] Implement a responsive design to ensure the site looks good on all devices.
 
