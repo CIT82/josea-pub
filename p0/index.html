@@ -13,7 +13,7 @@
     </head>
     <body>
         <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Fashion Casual</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -30,15 +30,15 @@
             </div>
         </nav>
         <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1600x900')">
+        <!-- Replace the background image with a relevant image of the store interior -->
+        <header class="py-5 bg-image-full" style="background-image: url('/img/store_interior.png')">
             <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
+                <img class="img-fluid rounded-circle mb-4" src="/img/web-app-manifest-192x192.png" alt="..." />
                 <h1 class="text-white fs-3 fw-bolder">Home</h1>
-                <p class="text-white-50 mb-0">Main Content</p>
             </div>
         </header>
         <!-- At least use placeholder text to update the content sections -->
-        <!-- Content section #1 -->
+        <!-- Welcome Section -->
         <section class="py-5">
             <div class="container my-5">
                 <div class="row justify-content-center">
@@ -50,19 +50,72 @@
                 </div>
             </div>
         </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
-        </div>
-        <!-- Content section #2 -->
+        <!-- What We Offer -->
         <section class="py-5">
             <div class="container my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-                        <h2>Engaging Background Images</h2>
-                        <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
+                        <h2>What We Offer</h2>
+                        <p class="lead">We offer a wide range of casual fashion items, including clothing, accessories, and footwear, all designed to keep you stylish and comfortable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Clothing categories -->
+        <section class="py-5 bg-light">
+            <div class="container my-5">
+                <div class="text-center mb-5">
+                    <h2>What are you looking for?</h2>
+                    <p class="lead">Find your next casual look.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <a class="card h-100 text-decoration-none shadow-sm" href="headwear.html">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Headwear</h3>
+                                <p class="card-text">Caps and hats for every casual outfit.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="card h-100 text-decoration-none shadow-sm" href="tops-and-outerwear.html">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Tops and Outerwear</h3>
+                                <p class="card-text">Comfortable layers and everyday essentials.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="card h-100 text-decoration-none shadow-sm" href="leggings.html">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Leggings</h3>
+                                <p class="card-text">Flexible styles made for moving comfortably.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="card h-100 text-decoration-none shadow-sm" href="shoes.html">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Shoes</h3>
+                                <p class="card-text">Casual sneakers, boots, and everyday footwear.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="card h-100 text-decoration-none shadow-sm" href="accessories.html">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Accessories</h3>
+                                <p class="card-text">Finishing touches to complete your look.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <a class="card h-100 text-decoration-none shadow-sm" href="sport-mode.html">
+                            <div class="card-body text-center">
+                                <h3 class="card-title">Sport Mode</h3>
+                                <p class="card-text">Active styles for your everyday routine.</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
